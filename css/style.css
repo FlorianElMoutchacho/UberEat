@@ -1,0 +1,189 @@
+/*----------------------------------------------------
+header
+-----------------------------------------------------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    margin-right: 1rem;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  
+  .login-buttons button {
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  .login-buttons button:first-child {
+    color: black;
+  }
+  
+  .login-buttons button:last-child {
+    color: white;
+    background-color: black;
+  }
+  
+/*------------------------------------------------
+body
+---------------------------------------------------*/
+  
+body {
+    background-color: cream;
+    background-image: url("../img/fond-kebab.img");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar input[type="text"] {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0 1rem;
+  }
+  
+  .button-container button {
+    flex: 1;
+    width: 33%;
+    margin: 0 1rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .find-btn {
+    background-color: black;
+    color: white;
+  }
+  
+
+/*-------------------------------------------------------
+choix
+--------------------------------------------------------*/
+.choix {
+  background-image: url('../img/logo.img.jpg');
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container a {
+  display: flex;
+  flex: 1;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.container a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.btn-promotions {
+  background-color: #ff6666;
+}
+
+.btn-fast-food {
+  background-color: #ff9933;
+}
+
+.btn-asian-food {
+  background-color: #00cc66;
+}
+
+.btn-french-food {
+  background-color: #00ccff;
+}
+
+.btn-burger {
+  background-color: #ff3333;
+}
+
+.btn-pizza {
+  background-color: #9966ff;
+}
+
+.btn-gastronomic {
+  background-color: #ff66cc;
+}
+
+.btn-drink {
+  background-color: #33ccff;
+}
+
+.btn-icecream {
+  background-color: #ffcc66;
+}
+
+.separator {
+	border-top: 1px solid black;
+	margin-top: -1px;
+}
+
+/*----------------------------------------------------
+footer
+--------------------------------------------------------*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.left {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.right {
+  text-align: right;
+}
